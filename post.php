@@ -35,8 +35,8 @@
             Voluptatum doloribus consectetur sint necessitatibus esse eligendi hic quis aut saepe praesentium iusto perspiciatis aspernatur veniam quibusdam, delectus at recusandae quasi ipsam quo, ipsum obcaecati possimus cumque ratione nesciunt? Blanditiis.
             </p>
         </div>
-    </main>
-    <anside id="nav-container">
+
+        <anside id="nav-container">
         <h3 id="tags-title">Tags</h3>
         <ul id="tag-list">
             <?php foreach($currentPost['tags'] as $tag): ?>
@@ -49,7 +49,9 @@
                 <li><a href="#"><?= $category ?></a></li>
             <?php endforeach; ?>   
         </ul>
-    </anside>
+        </anside>
+    </main>
+    
 <?php
     include_once("templates/footer.php");
 ?>
