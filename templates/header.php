@@ -27,7 +27,7 @@
                 <li><a href="<?= $BASE_URL ?>" class="nav-link">Home</a></li>
                 <li><a href="3" class="nav-link">Categorias</a></li>
                 <li><a href="#" class="nav-link">Sobre</a></li>
-                <li><a href="<?= $BASE_URL ?>/contato.php" class="nav-link">Contatos</a></li>
+                <li><a href="<?= $BASE_URL ?>contato.php" class="nav-link">Contatos</a></li>
             </ul>
         </nav>
     </header>
